@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-26T17:26:19 EEST" name="Test Suite" finished-at="2023-09-26T17:27:36 EEST" duration-ms="76893">
+    <groups>
+    </groups>
+    <test started-at="2023-09-26T17:26:19 EEST" name="LoginTests" finished-at="2023-09-26T17:27:36 EEST" duration-ms="76893">
+      <class name="Login.LoginPositiveTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.LoginPositiveTests@5f462e3b]" started-at="2023-09-26T17:26:19 EEST" name="setup" finished-at="2023-09-26T17:27:01 EEST" duration-ms="41186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginSuccessStandardUser(java.lang.String)[pri:0, instance:Login.LoginPositiveTests@5f462e3b]" started-at="2023-09-26T17:27:01 EEST" name="testLoginSuccessStandardUser" description="Test login with valid username and valid password." data-provider="valid-usernames" finished-at="2023-09-26T17:27:07 EEST" duration-ms="5302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccessStandardUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Login.LoginPositiveTests@5f462e3b]" started-at="2023-09-26T17:27:07 EEST" name="tearDown" finished-at="2023-09-26T17:27:08 EEST" duration-ms="1785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.LoginPositiveTests@5f462e3b]" started-at="2023-09-26T17:27:08 EEST" name="setup" finished-at="2023-09-26T17:27:17 EEST" duration-ms="8901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginSuccessStandardUser(java.lang.String)[pri:0, instance:Login.LoginPositiveTests@5f462e3b]" started-at="2023-09-26T17:27:17 EEST" name="testLoginSuccessStandardUser" description="Test login with valid username and valid password." data-provider="valid-usernames" finished-at="2023-09-26T17:27:19 EEST" duration-ms="1140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccessStandardUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Login.LoginPositiveTests@5f462e3b]" started-at="2023-09-26T17:27:19 EEST" name="tearDown" finished-at="2023-09-26T17:27:20 EEST" duration-ms="1689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.LoginPositiveTests@5f462e3b]" started-at="2023-09-26T17:27:20 EEST" name="setup" finished-at="2023-09-26T17:27:29 EEST" duration-ms="8238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginSuccessStandardUser(java.lang.String)[pri:0, instance:Login.LoginPositiveTests@5f462e3b]" started-at="2023-09-26T17:27:29 EEST" name="testLoginSuccessStandardUser" description="Test login with valid username and valid password." data-provider="valid-usernames" finished-at="2023-09-26T17:27:34 EEST" duration-ms="5749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccessStandardUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Login.LoginPositiveTests@5f462e3b]" started-at="2023-09-26T17:27:34 EEST" name="tearDown" finished-at="2023-09-26T17:27:36 EEST" duration-ms="1702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Login.LoginPositiveTests -->
+    </test> <!-- LoginTests -->
+  </suite> <!-- Test Suite -->
+</testng-results>

@@ -1,0 +1,8 @@
+Pages\Login\Locators.class
+TestData\User.class
+Pages\Inventory\Locators.class
+TestData\InvalidUser.class
+Pages\Login\LoginPage.class
+Pages\Inventory\InventoryPage.class
+Pages\Util\Utils.class
+TestData\Purchase.class

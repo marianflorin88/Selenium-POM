@@ -1,0 +1,5 @@
+Login\LoginNegativeTests.class
+Login\LoginPositiveTests.class
+Pages\Inventory\Base\InventoryBase.class
+Inventory\InventoryHappyPathTests.class
+Pages\Inventory\Base\LoginBase.class
